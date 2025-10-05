@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vas_fno_kisprojekt</name>
+  <version>0.0.0</version>
+  <description>Ez a Package 8 random számot generál 50 és -50 közötti értékekktl, majd ezeket az értekeket egy node az "unsorted_array" topicra publisholja, amire két másik node subscibe-ol, az egyik átlogolja az értekeket, a másik pedig csökkenő sorrendbe helyezi őket.</description>
+  <maintainer email="levente.vass@ddc.sze.hu">levi</maintainer>
+  <license>GNU General Public License v3.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
