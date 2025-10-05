@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>vas_fno_kisprojekt</name>
+  <name>vas_fno_atlag_csokkeno</name>
   <version>0.0.0</version>
   <description>Ez a Package 8 random számot generál 50 és -50 közötti értékekktl, majd ezeket az értekeket egy node az "unsorted_array" topicra publisholja, amire két másik node subscibe-ol, az egyik átlogolja az értekeket, a másik pedig csökkenő sorrendbe helyezi őket.</description>
   <maintainer email="levente.vass@ddc.sze.hu">levi</maintainer>

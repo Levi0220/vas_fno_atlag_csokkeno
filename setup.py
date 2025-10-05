@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'vas_fno_kisprojekt'
+package_name = 'vas_fno_atlag_csokkeno'
 
 setup(
     name=package_name,
@@ -19,9 +19,9 @@ setup(
     license='GNU General Public License v3.0',
     entry_points={
         'console_scripts': [
-            'array_publisher = vas_fno_kisprojekt.array_publisher:main',
-            'array_sorter    = vas_fno_kisprojekt.array_sorter:main',
-            'array_averager  = vas_fno_kisprojekt.array_averager:main',
+            'array_publisher = vas_fno_atlag_csokkeno.array_publisher:main',
+            'array_sorter    = vas_fno_atlag_csokkeno.array_sorter:main',
+            'array_averager  = vas_fno_atlag_csokkeno.array_averager:main',
         ],
     },
 )
